@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.app-container {
+    height: 700px;
+    width: 700px;
+    background-color: #F5F7FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home-screen h1 {
+    font-weight: 700;
+    font-size: 31px;
+    color: #293264;
+    margin: 0;
+}
+
+.home-screen h4 {
+    font-size: 20px;
+    color: #293264;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+.home-screen button {
+    width: 193px;
+    height: 52px;
+    background-color: #4D5B9E;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.top-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.bottom-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/*************************Question Screen********************/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.questions {
+    width: 90%;
+    padding: 15px 0;
+    border-bottom: 0.794239px solid #DBDEF0;
+}
+
+.questions h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #293264;
+}
+
+.answers-box {
+    display: flex;
+    align-items: center;
+}
+
+.answers {
+    height: 40px;
+    border: 0.771045px solid #4D5B9E;
+    border-radius: 7.71045px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #293264;
+}
+
+.clicked {
+    background-color: #D6DBF5;
+}
+
+.correct {
+    background-color: #94D7A2;
+}
+
+.wrong {
+    background-color: #F8BCBC;
+}
+
+.answers h4 {
+    font-family: 'inter';
+    font-size: 11px;
+}
+
+.results-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results-box h4{
+    color: #293264;
+    padding-right: 30px;
+}
+
+.btn-box {
+    padding: 15px 0;
+    
+}
+
+.btn-box button {
+    background-color: #293264;
+    color: white;
+    height: 35px;
+    font-size: 11px;
+    padding: 0 22px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.loading {
+    color: #293264;
+}
